@@ -38,15 +38,15 @@ pip install -r requirements.txt
 
 ## Dataset
 
-The dataset is taken from kaggle. This dataset contains information about used cars listed on www.cardekho.com. The dataset link is given <a href="https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho">here</a>.
+The dataset is taken from kaggle. This dataset is given by MachineHack and contains various attributes which descibe a flight journey. The dataset link is given <a href="https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh">here</a>.
 
-<!-- ## Code
+## Code
 
-The code for the model, algorithms used and accuracy of the model can be found <a href="https://github.com/VarunV991/Car-Value-Prediction/blob/master/Car%20Price%20Prediction.ipynb">here</a>.
+The code for the model, algorithms used and accuracy of the model can be found <a href="https://github.com/VarunV991/Flight-Fare-Prediction/blob/master/Flight_Fare_Prediction.ipynb">here</a>.
 
 ## Web App and Deployment
 
-This project uses Flask for the web app and its deployment is done on Heroku. -->
+This project uses Flask for the web app and its deployment is done on Heroku.
 
 #### Other Info
 This project is a modified version of an older project on the same topic.The original project is available <a href="https://github.com/Mandal-21/Flight-Price-Prediction">here</a>.
