@@ -43,6 +43,7 @@ The dataset is taken from kaggle. This dataset is given by MachineHack and conta
 ## Code
 
 The code for the model, algorithms used and accuracy of the model can be found <a href="https://github.com/VarunV991/Flight-Fare-Prediction/blob/master/Flight_Fare_Prediction.ipynb">here</a>.
+The trained model is available <a href="https://drive.google.com/file/d/1rF5g8wPw-V2kbFKcTRdSFIbv18DWC8i-/view?usp=sharing">here</a>.
 
 ## Web App and Deployment
 
