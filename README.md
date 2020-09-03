@@ -6,11 +6,11 @@
 
 The objective of this project is to calculate the <strong>fare of a flight journey</strong> based on various parameters such as source,destination,no. of stops, etc.
 
-<!-- ## Live Demo
+## Live Demo
 
-<a href="https://carvaluepred.herokuapp.com/">Car Value Prediction</a>
+<a href="https://flight-fareprediction.herokuapp.com/">Flight Fare Predicition</a>
 
-  ### Glimpse of the Web App
+  <!-- ### Glimpse of the Web App
   <br>
 
   ![GIF](carvaluepred.gif) -->
