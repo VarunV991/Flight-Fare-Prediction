@@ -21,22 +21,20 @@ The Code is written in Python 3.7. If you don't have Python installed you can fi
 pip install -r requirements.txt
 ```
 
-<!-- ## Directory Tree 
+## Directory Tree 
 ```
+├── data
 ├── static 
 │   ├── style.css
 ├── templates
 │   ├── index.html
-├── CAR DETAILS FROM CAR DEKHO.csv
-├── Car Price Prediction.ipynb
+│   ├── result.html
+├── Flight_Fare_Prediction.ipynb
 ├── Procfile
 ├── README.md
 ├── app.py
-├── car data.csv
-├── carvaluepred.gif
-├── model.pkl
 ├── requirements.txt
-``` -->
+```
 
 ## Dataset
 
