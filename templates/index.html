@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Flight Fare Prediction</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='heading_first'>Flight Fare Prediction</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+    		</div>
+    	</div>
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+            <!-- Prediction Form -->
+            <div class='div2'>
+                <form action="{{ url_for('predict') }}" method="POST">
+                    <!-- Airline Choice Dropdown -->
+                    <select class="form-input align-center" name="airline" required="required"> 
+                        <option value="none">--- Choice of Airline ---</option>
+                        <option value="Air India">Air India</option>
+                        <option value="GOAir">GO Air</option>
+                        <option value="IndiGo">IndiGo</option>
+                        <option value="Jet Airways">Jet Airways</option>
+                        <option value="Jet Airways Business">Jet Airways Business</option>
+                        <option value="Multiple carriers">Multiple carriers</option>
+                        <option value="Multiple carriers Premium economy">Multiple carriers Premium Economy</option>
+                        <option value="SpiceJet">SpiceJet</option>
+                        <option value="Trujet">Trujet</option>
+                        <option value="Vistara">Vistara</option>
+                        <option value="Vistara_Premium_economy">Vistara Premium Economy</option>
+                        <option value="Air Asia">Air Asia</option>
+                    </select><br>
+                    <!-- Source Dropdown -->
+                    <select class="form-input align-center" name="source" required="required">
+                        <option value="none">--- Source ---</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                    </select><br>
+                    <!-- Destination Dropdown -->
+                    <select class="form-input align-center" name="dest" required="required">
+                        <option value="none">--- Destination ---</option>
+                        <option value="Cochin">Cochin</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="New Delhi">New Delhi</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                    </select><br>
+                    <!-- Total Stops -->
+                    <select class="form-input align-center" name="stops" required="required">
+                        <option value="none">--- Total Stops ---</option>
+                        <option value="0">Non-Stop</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select><br>
+                    <!-- Depature Date -->
+                    <h4 class="heading_second">Depature Date</h4>
+                    <input type="datetime-local" name="Dep_Time" id="Dep_Time" required="required" placeholder="Departure Date"><br>
+                    <!-- Arrival Date -->
+                    <h4 class="heading_second">Arrival Date</h4>
+                    <input type="datetime-local" name="Arrival_Time" id="Arrival_Time" required="required" placeholder="Arrival Date"><br>
+			        <input type="submit" class="myButton" value="Predict Score">
+        	    </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/VarunV991/Flight-Fare-Prediction"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/varun-v-21920b147/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made with Varun.</p>
+       </div>
+
+    </body>
+</html>
